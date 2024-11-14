@@ -297,7 +297,7 @@ address {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  padding: 32px 0 8px;
+  padding: 32px 0;
 }
 
 .team-item {
@@ -331,7 +331,19 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-icon-item:hover,
+.team-icon-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-icon-link:hover,
+.team-icon-link:active,
+.team-icon-link:focus,
 .footer-link:hover,
 .footer-link:active,
 .footer-link:focus {
@@ -339,10 +351,7 @@ address {
 }
 
 .team-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  fill: #f4f4fd;
 }
 
 .portfolio-list {
@@ -422,9 +431,14 @@ address {
   margin-top: 16px;
 }
 
+.footer-icon {
+  fill: #f4f4fd;
+}
+
 .footer-icon-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link {
@@ -470,4 +484,5 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
