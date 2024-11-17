@@ -307,15 +307,11 @@ address {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.team-icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .team-icon-list {
   list-style-type: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   gap: 24px;
   padding-bottom: 32px;
