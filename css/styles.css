@@ -314,7 +314,8 @@ address {
   justify-content: center;
   flex-direction: row;
   gap: 24px;
-  padding-bottom: 32px;
+  padding: 0;
+  /* padding-bottom: 32px; */
 }
 
 .team-icon-item,
