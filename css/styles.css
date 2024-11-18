@@ -428,7 +428,6 @@ address {
   display: flex;
   flex-direction: row;
   gap: 16px;
-  margin-top: 16px;
 }
 
 .footer-icon {
@@ -484,4 +483,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+  margin-top: 0%;
 }
